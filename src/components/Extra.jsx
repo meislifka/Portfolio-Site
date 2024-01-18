@@ -2,7 +2,7 @@ import React from 'react'
 import parkMap from '../assets/NationalParks.png'
 export const Extra = () => {
   return (
-    <div id="extra" className='g-red-500 h-300 min-h-screen'>
+    <div id="extra" className='min-h-screen  py-[2rem] px-4 bg-[#268740]'>
       <h1 className='text-3xl font-bold text-[#9ae3f5]'>EXTRA</h1>
       <div>
         <p>Here are some other things about me</p>

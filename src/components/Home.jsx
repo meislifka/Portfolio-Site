@@ -1,6 +1,8 @@
 import React from 'react';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import person from '../assets/placeholderPerson.jpg'
+import { ImNewTab } from "react-icons/im";
+
 export const Home = () => {
 
   const handleResumeButtonClick = () => {
@@ -27,8 +29,8 @@ export const Home = () => {
             <FaLinkedin size={40} />
           </a>
 
-          <button onClick={handleResumeButtonClick} className="bg-blue-500 text-white p-2 rounded-md">
-            View Resume
+          <button onClick={handleResumeButtonClick} className=" flex bg-blue-500 text-white p-2 rounded-md">
+            Resume  <ImNewTab />
           </button>
 
 
