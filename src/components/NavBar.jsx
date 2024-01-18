@@ -36,15 +36,27 @@ const Navbar = () => {
   return (
     <div className={`fixed top-0 left-0 right-0 z-50 bg-[#9ae3f5] text-white ${nav ? 'h-screen' : 'h-20'}`}>
       <div className='flex justify-between items-center max-w-[1240px] mx-auto px-4'>
-        <h1 className='text-3xl font-bold text-[#00df9a]'>REACT.</h1>
-        <ul className='hidden md:flex'>
+        <h1 className='text-3xl font-bold text-[#00df9a]'></h1>
+        <ul className='hidden md:flex text-1xl font-bold text-[#000000]'>
+          <Link
+            to="home"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-72}
+            onSetActive={() => handleSetActive('home')}
+          >
+            <li className={`p-4 pb-1 cursor-pointer whitespace-nowrap ${activeLink === 'home' ? 'border-b-2 border-blue-500' : ''}`}>HOME</li>
+          </Link>
+
           <Link
             to="about"
             smooth={true}
             duration={500}
             spy={true}
             exact='true'
-            offset={-70}
+            offset={-72}
             onSetActive={() => handleSetActive('about')}
           >
             <li className={`p-4 pb-1 cursor-pointer whitespace-nowrap ${activeLink === 'about' ? 'border-b-2 border-blue-500' : ''}`}>ABOUT ME</li>
@@ -55,7 +67,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact='true'
-            offset={-70}
+            offset={-72}
             onSetActive={() => handleSetActive('projects')}
           >
             <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'projects' ? 'border-b-2 border-blue-500' : ''}`}>PROJECTS</li>
@@ -66,7 +78,7 @@ const Navbar = () => {
             duration={500}
             spy={true}
             exact='true'
-            offset={-70}
+            offset={-72}
             onSetActive={() => handleSetActive('resume')}
           >
             <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'resume' ? 'border-b-2 border-blue-500' : ''}`}>RESUME</li>

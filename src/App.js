@@ -4,12 +4,14 @@ import { AboutMe } from './components/AboutMe';
 import { Projects } from './components/Projects';
 import { Resume } from './components/Resume';
 import { Footer } from './components/Footer';
+import { Home } from './components/Home';
 
 
 function App() {
   return (
     <div>
       <Navbar />
+      <Home />
       <AboutMe />
       <Projects />
       <Resume />
