@@ -73,15 +73,15 @@ const Navbar = () => {
             <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'projects' ? 'border-b-2 border-blue-500' : ''}`}>PROJECTS</li>
           </Link>
           <Link
-            to="resume"
+            to="extra"
             smooth={true}
             duration={500}
             spy={true}
             exact='true'
             offset={-72}
-            onSetActive={() => handleSetActive('resume')}
+            onSetActive={() => handleSetActive('extra')}
           >
-            <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'resume' ? 'border-b-2 border-blue-500' : ''}`}>RESUME</li>
+            <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'extra' ? 'border-b-2 border-blue-500' : ''}`}>EXTRA</li>
           </Link>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>

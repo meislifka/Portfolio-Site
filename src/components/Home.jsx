@@ -11,7 +11,7 @@ export const Home = () => {
 
 
   return (
-    <div id="home" className='flex flex-col-2   items-center mt-20 min-h-screen'>
+    <div id="home" className='flex flex-col-2  w-full py-[2rem] px-4 items-center mt-20 min-h-screen'>
       <div>
         <div>
           <h1 className='text-blue-500 text-5xl font-bold'>Mei Slifka</h1>
