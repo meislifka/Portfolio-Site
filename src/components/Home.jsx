@@ -13,7 +13,7 @@ export const Home = () => {
 
 
   return (
-    <div id="home" className='flex flex-col-2  w-full py-[2rem] px-4 items-center mt-20 min-h-screen'>
+    <div id="home" className='flex flex-col-2 justify-center items-center w-full py-[2rem] px-4 mt-20 min-h-screen'>
       <div>
         <div>
           <h1 className='text-blue-500 text-5xl font-bold'>Mei Slifka</h1>
@@ -29,19 +29,17 @@ export const Home = () => {
             <FaLinkedin size={40} />
           </a>
 
-          <button onClick={handleResumeButtonClick} className=" flex bg-blue-500 text-white p-2 rounded-md">
-            Resume  <ImNewTab />
+          <button onClick={handleResumeButtonClick} className="flex bg-blue-500 text-white p-2 rounded-md">
+            Resume <ImNewTab />
           </button>
-
-
         </div>
       </div>
 
-      <div className="flex items-center">
-        <img className='w-40 mx-auto mt-[-3rem] bg-transparent ' src={person} alt="/" />
+      <div className="flex items-center pl-5">
+        <img className='w-40 mx-auto mt-[-3rem] bg-transparent rounded-full' src={person} alt="/" />
       </div>
-
-
     </div>
+
+
   );
 };

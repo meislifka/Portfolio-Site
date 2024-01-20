@@ -2,10 +2,10 @@ import React from 'react';
 
 export const AboutMe = () => {
   return (
-    <div className='flex min-h-screen  py-[4rem] px-4'> {/* Add margin-top here to create space for the fixed navbar */}
+    <div className='flex min-h-screen items-center justify-center py-[2rem] px-4'> {/* Add margin-top here to create space for the fixed navbar */}
 
       <div id="about" className='bg-[#0001]'>
-        <h1 className='text-3xl font-bold text-[#9ae3f5]'>About Me</h1>
+        <h1 className='mt-4 text-center text-3xl font-bold text-[#9ae3f5]'>About Me</h1>
         I am a software engineer currently working at L3Harris. I hold a BS degree from Villanova University in Computer Engineering with Minors in Cyber Security and Computer Science.
 
         Journey into Programming:

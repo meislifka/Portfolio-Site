@@ -12,10 +12,12 @@ export const Extra = () => {
         </div>
 
         <div>
-          <p>I like to do grandma hobbies</p>
+          <p>I like to do grandma hobbies</p>-
           <p>Crochet</p>
           <p>Embroidery</p>
           <p>Cross Stitch</p>
+
+          <p>Escape rooms</p>
         </div>
       </div>
 
