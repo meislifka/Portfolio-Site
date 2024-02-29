@@ -73,6 +73,17 @@ const Navbar = () => {
             <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'projects' ? 'border-b-2 border-blue-500' : ''}`}>PROJECTS</li>
           </Link>
           <Link
+            to="awards"
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact='true'
+            offset={-72}
+            onSetActive={() => handleSetActive('awards')}
+          >
+            <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'awards' ? 'border-b-2 border-blue-500' : ''}`}>AWARDS</li>
+          </Link>
+          <Link
             to="extra"
             smooth={true}
             duration={500}
@@ -123,6 +134,18 @@ const Navbar = () => {
                 onSetActive={() => handleSetActive('projects')}
               >
                 <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'projects' ? 'border-b-2 border-blue-500' : ''}`}>PROJECTS</li>
+              </Link>
+
+              <Link
+                to="awards"
+                smooth={true}
+                duration={500}
+                spy={true}
+                exact='true'
+                offset={-72}
+                onSetActive={() => handleSetActive('awards')}
+              >
+                <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'awards' ? 'border-b-2 border-blue-500' : ''}`}>AWARDS</li>
               </Link>
 
               <Link
