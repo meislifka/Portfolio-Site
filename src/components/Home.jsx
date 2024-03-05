@@ -1,19 +1,22 @@
 import React from 'react';
 import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
-import person from '../assets/placeholderPerson.jpg'
+import person from '../assets/portrait.jpg'
+import resume from '../assets/MSlifka_Resume.pdf'
 import { ImNewTab } from "react-icons/im";
 
 export const Home = () => {
 
   const handleResumeButtonClick = () => {
-    // Replace 'path/to/your-resume.pdf' with the actual path or URL of your resume PDF
-    const resumeUrl = '/path/to/your-resume.pdf';
-    window.open(resumeUrl, '_blank');
+    window.open(resume, '_blank');
   };
-
 
   return (
     <div id="home" className='flex flex-col-2 justify-center items-center w-full py-[2rem] px-4 mt-20 min-h-screen'>
+
+      <div className="flex items-center pl-5">
+        <img className='w-40 mx-auto mt-[-3rem] bg-transparent rounded' src={person} alt="/" />
+      </div>
+
       <div>
         <div>
           <h1 className='text-blue-500 text-5xl font-bold'>Mei Slifka</h1>
@@ -35,9 +38,7 @@ export const Home = () => {
         </div>
       </div>
 
-      <div className="flex items-center pl-5">
-        <img className='w-40 mx-auto mt-[-3rem] bg-transparent rounded-full' src={person} alt="/" />
-      </div>
+
     </div>
 
 
