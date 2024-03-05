@@ -4,6 +4,7 @@ import placceholder from '../assets/placeholderPerson.jpg'
 import seeLion from '../assets/seeLion.jpg'
 import hLStocks from '../assets/higherlowerstocks.jpg'
 import astroids from '../assets/astroids.jpg'
+import website from '../assets/website.jpg'
 
 
 export const Projects = () => {
@@ -15,7 +16,7 @@ export const Projects = () => {
       <div className='flex max-w-[1240px] mx-auto'>
         <div className='grid md:grid-cols-2 gap-8 w-full'>
           <div className=' w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300'>
-            <img className='w-30 mx-auto mt-[-3rem] bg-white rounded-lg' src={seeLion} alt="/" />
+            <img className='w-30 mx-auto mt-1 bg-white rounded-lg' src={seeLion} alt="/" />
             <h2 className='text-2xl font-bold text-center py-8 pb-0'>SeeLion</h2>
             <p className='text-1xl font-bold text-center pt-1'>
               <span className="bg-[#4dcdc7]  text-[#152a4f] rounded-md px-2">Python Flask</span>
@@ -26,7 +27,7 @@ export const Projects = () => {
 
           </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300'>
-            <img className='w-30 mx-auto mt-[-3rem] bg-white rounded-lg' src={hLStocks} alt="/" />
+            <img className='w-30 mx-auto mt-1 bg-white rounded-lg' src={hLStocks} alt="/" />
             <h2 className='text-2xl font-bold text-center py-8 pb-0'>Stocks Higher or Lower Game</h2>
             <p className='text-1xl font-bold text-center pt-1 '>
               <span className="bg-red-400 text-[#742020] rounded-md px-2">HTML</span>
@@ -36,17 +37,21 @@ export const Projects = () => {
             <p className='text-2xl font-bold text-center py-8'>Guessing game to guess the relative price of a stock to another from the S&P500 </p>
           </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300'>
-            <img className='w-30 mx-auto mt-[-3rem] bg-white rounded-lg' src={astroids} alt="/" />
+            <img className='w-30 mx-auto mt-1 bg-white rounded-lg' src={astroids} alt="/" />
+            <h2 className='text-2xl font-bold text-center py-8 pb-0'>Astriods</h2>
             <p className='text-1xl font-bold text-center pt-1 '>
               <span className="bg-blue-600 text-yellow-400 rounded-md px-2 ">PyGame</span>
             </p>
-            <h2 className='text-2xl font-bold text-center py-8'>Astriods</h2>
-            <p className='text-2xl font-bold text-center py-8'>Python</p>
             <p className='text-2xl font-bold text-center py-8'> A python game similar to the arcade game Astriods. Used in an escape room I built </p>
           </div>
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-white hover:scale-105 duration-300'>
-            <img className='w-30 mx-auto mt-[-3rem] bg-white rounded-lg' src={placceholder} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8'>Astriods</h2>
+            <img className='w-30 mx-auto mt-1 rounded-lg' src={website} alt="/" />
+            <h2 className='text-2xl font-bold text-center py-8 pb-0'>Portfolio Website</h2>
+            <p className='text-1xl font-bold text-center pt-1 '>
+              <span className="bg-[#000000] text-blue-600 rounded-md px-2 ">React</span>
+              <span className="bg-[#ababab] text-blue-600 rounded-md px-2 mx-1">Tailwind</span>
+            </p>
+            <p className='text-2xl font-bold text-center py-8'> This website </p>
           </div>
         </div>
       </div>

@@ -13,11 +13,12 @@ export const Home = () => {
   return (
     <div id="home" className='flex flex-col-2 justify-center items-center w-full py-[2rem] px-4 mt-20 min-h-screen'>
 
-      <div className="flex items-center pl-5">
-        <img className='w-40 mx-auto mt-[-3rem] bg-transparent rounded' src={person} alt="/" />
-      </div>
 
       <div>
+        <div className="flex items-center pl-5 ">
+          <img className='w-40 mx-auto mt-[-3rem] bg-transparent rounded' src={person} alt="/" />
+        </div>
+
         <div>
           <h1 className='text-blue-500 text-5xl font-bold'>Mei Slifka</h1>
           <h1 className='text-red text-2xl font-bold text-center'>Software Engineer</h1>
@@ -37,10 +38,6 @@ export const Home = () => {
           </button>
         </div>
       </div>
-
-
     </div>
-
-
   );
 };
