@@ -3,7 +3,7 @@ import { FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 
 export const Footer = () => {
   return (
-    <div className="flex justify-end items-center bg-blue-400">
+    <div className="flex justify-end items-centertext bg-[#9ae3f5]">
       <div className="flex space-x-1 mr-2">
         {/* GitHub icon linked to GitHub */}
         <a href="https://github.com/meislifka" target="_blank" rel="noopener noreferrer">
