@@ -1,5 +1,6 @@
 import React from 'react'
 import parkMap from '../assets/NationalParks.png'
+//import crochet from '../assets/'
 export const Extra = () => {
   return (
     <div id="extra" className='min-h-screen  py-[2rem] px-4 '>
@@ -8,7 +9,9 @@ export const Extra = () => {
         <p>Here are some other things about me</p>
         <div>
           <p>One of my goals is to visit all 63 National Parks</p>
-          <img className='w-50 bg-transparent ' src={parkMap} alt="/" />
+          <div>
+            <img className='w-50 bg-transparent border-gray-500 border-4 rounded-md' src={parkMap} alt="/" />
+          </div>
         </div>
 
         <div>
