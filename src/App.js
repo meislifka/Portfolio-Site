@@ -4,7 +4,7 @@ import { Home } from './components/Home';
 import { AboutMe } from './components/AboutMe';
 import { Projects } from './components/Projects';
 import { Awards } from './components/Awards';
-import { Extra } from './components/Extra';
+import { Extras } from './components/Extras';
 import { Footer } from './components/Footer';
 
 
@@ -17,7 +17,7 @@ function App() {
       <AboutMe />
       <Projects />
       <Awards />
-      <Extra />
+      <Extras />
       <Footer />
 
 

@@ -15,27 +15,33 @@ export const Awards = () => {
           <div className=' w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#d9d9d9] hover:scale-105 duration-300 border-gray-500 border-4'>
             <span className='black ml-2 flex items-center'>Academic</span>
             <div className='pl-20 text-xl'>
+
               <div className="flex items-center">
+
                 <FaTrophy className="text-[#eecc42] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1.8)] " />
-                <span className='black ml-2'>Principal's honor roll</span>
+                <span className='black ml-2'>Principal's honor roll (16 semesters)</span>
               </div>
               <div className="flex items-center">
                 <FaTrophy className="text-[#eecc42] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1.8)]" />
-                <span className='black ml-2'>Principal's honor roll</span>
+                <span className='black ml-2'>Tau Beta Pi Honor Society</span>
               </div>
               <div className="flex items-center">
                 <FaTrophy className="text-[#eecc42] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1.8)]" />
-                <span className='black ml-2'>Principal's honor roll</span>
+                <span className='black ml-2'>1st place Lockheed Martian CodeQuest (2019)</span>
+              </div>
+              <div className="flex items-center">
+                <FaTrophy className="text-[#eecc42] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1.8)]" />
+                <span className='black ml-2'> 3rd place State levelNational History Day</span>
               </div>
             </div>
           </div>
 
           <div className=' w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#d9d9d9] hover:scale-105 duration-300 border-gray-500 border-4'>
-            <span className='black ml-2 flex items-center'>Academic</span>
+            <span className='black ml-2 flex items-center'>Extracurriculars</span>
             <div className='pl-20 text-xl'>
               <div className="flex items-center">
                 <FaTrophy className="text-[#eecc42] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1.8)] " />
-                <span className='black ml-2'>Principal's honor roll</span>
+                <span className='black ml-2'>3rd Degree black belt (10+ years Marital arts)</span>
               </div>
               <div className="flex items-center">
                 <FaTrophy className="text-[#eecc42] drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,1.8)]" />
