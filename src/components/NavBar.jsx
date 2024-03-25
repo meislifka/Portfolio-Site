@@ -71,24 +71,13 @@ const Navbar = () => {
             <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'projects' ? 'border-b-2 border-blue-500' : ''}`}>PROJECTS</li>
           </Link>
           <Link
-            to="awards"
-            smooth={true}
-            duration={500}
-            spy={true}
-            exact='true'
-            offset={-72}
-            onSetActive={() => handleSetActive('awards')}
-          >
-            <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'awards' ? 'border-b-2 border-blue-500' : ''}`}>AWARDS</li>
-          </Link>
-          <Link
             to="extras"
             smooth={true}
             duration={500}
             spy={true}
             exact='true'
             offset={-72}
-            onSetActive={() => handleSetActive('s')}
+            onSetActive={() => handleSetActive('extras')}
           >
             <li className={`p-4 pb-1 cursor-pointer ${activeLink === 'extras' ? 'border-b-2 border-blue-500' : ''}`}>EXTRAS</li>
           </Link>
@@ -135,19 +124,6 @@ const Navbar = () => {
                 onClick={handleNav}
               >
                 <li className={`p-4 pb-1 hover:bg-[#2f3480] hover:text-white cursor-pointer ${activeLink === 'projects' ? 'border-b-2 border-blue-500' : ''}`}>PROJECTS</li>
-              </Link>
-
-              <Link
-                to="awards"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact='true'
-                offset={-72}
-                onSetActive={() => handleSetActive('awards')}
-                onClick={handleNav}
-              >
-                <li className={`p-4 pb-1 hover:bg-[#2f3480] hover:text-white cursor-pointer ${activeLink === 'awards' ? 'border-b-2 border-blue-500' : ''}`}>AWARDS</li>
               </Link>
 
               <Link

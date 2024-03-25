@@ -9,7 +9,7 @@ import { ImNewTab } from "react-icons/im";
 
 export const Projects = () => {
   return (
-    <div id="projects" className='min-h-screen py-[2rem] px-4 '>
+    <div id="projects" className=' px-4 '>
       <div className=' mb-10'>
         <h1 className='text-6xl text-center font-bold text-[#9ae3f5] drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,1.8)] '>Projects</h1>
       </div>
@@ -61,7 +61,6 @@ export const Projects = () => {
 
             </p>
 
-
             <p className='text-2xl font-bold text-center py-8'>Guessing game to guess the relative price of a stock to another from the S&P500 </p>
           </div>
 
@@ -111,6 +110,12 @@ export const Projects = () => {
           </div>
         </div>
       </div>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div >
   );
 };

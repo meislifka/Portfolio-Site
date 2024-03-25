@@ -4,7 +4,7 @@ export const AboutMe = () => {
   return (
 
 
-    <div id="about" className='mt-1 mb-1 '>
+    <div id="about" className='mt-1'>
       <h1 className='mt-1 text-center text-6xl font-bold text-[#9ae3f5] drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,1.8)]'>About Me</h1>
       <div className='flex min-h-screen items-center justify-center pt-0 py-[20rem] px-4 font-bold'> {/* Add margin-top here to create space for the fixed navbar */}
         <div> <img className=' mt-1 bg-white rounded-md' src={headshot} alt="/" /></div>
