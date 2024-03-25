@@ -18,8 +18,8 @@ export const Projects = () => {
 
           {/* SeeLion card*/}
           <div className=' w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#d9d9d9] hover:scale-105 duration-300 border-gray-500 border-4'>
-            <img className='w-30 mx-auto mt-1 bg-white rounded-lg  border-gray-500 border-4 h-69 object-cover' src={seeLion} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8 pb-0'>SeeLion</h2>
+            <h2 className='text-2xl font-bold text-center pb-0'>SeeLion</h2>
+            <img className='w-30 mx-auto mt-1 bg-white rounded-lg  border-gray-500 border-4 h-69 object-cover my-2' src={seeLion} alt="/" />
             <p className='text-1xl font-bold text-center pt-1 flex justify-center items-center'>
               <span className="bg-[#4dcdc7] text-[#152a4f] rounded-md px-2">Python Flask</span>
               <span className="bg-[#4dcdc7] text-[#152a4f] rounded-md px-2 mx-1">SqLite</span>
@@ -39,8 +39,10 @@ export const Projects = () => {
 
           {/* Stocks card*/}
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#d9d9d9] hover:scale-105 duration-300 border-gray-500 border-4'>
-            <img className='w-30 mx-auto mt-1 bg-white rounded-lg border-gray-500 border-4 ' src={hLStocks} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8 pb-0 '>Stocks Higher or Lower Game</h2>
+
+            <h2 className='text-2xl font-bold text-center  pb-0 '>Stocks Higher or Lower Game</h2>
+            <img className='w-30 mx-auto mt-1 bg-white rounded-lg border-gray-500 border-4 my-2' src={hLStocks} alt="/" />
+
             <p className='text-1xl font-bold text-center pt-1 flex justify-center items-center'>
               <span className="bg-red-400 text-[#742020] rounded-md px-2">HTML</span>
               <span className="bg-yellow-400 text-[#756a20] rounded-md px-2 mx-1">Javascript</span>
@@ -66,8 +68,9 @@ export const Projects = () => {
 
           {/* Astroid card*/}
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#d9d9d9] hover:scale-105 duration-300 border-gray-500 border-4'>
-            <img className='w-30 mx-auto mt-1 bg-white rounded-lg border-gray-500 border-4' src={astroids} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8 pb-0'>Astriods</h2>
+            <h2 className='text-2xl font-bold text-center pb-0'>Astriods</h2>
+            <img className='w-30 mx-auto mt-1 bg-white rounded-lg border-gray-500 border-4 my-2' src={astroids} alt="/" />
+
             <p className='text-1xl font-bold text-center pt-1 flex justify-center items-center'>
               <span className="bg-blue-600 text-yellow-400 rounded-md px-2 mr-1">PyGame</span>
 
@@ -84,8 +87,8 @@ export const Projects = () => {
 
           {/* Portfolio card*/}
           <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#d9d9d9] hover:scale-105 duration-300 border-gray-500 border-4'>
-            <img className='w-30 mx-auto mt-1 rounded-lg border-gray-500 border-4' src={website} alt="/" />
-            <h2 className='text-2xl font-bold text-center py-8 pb-0'>Portfolio Website</h2>
+            <h2 className='text-2xl font-bold text-center pb-0'>Portfolio Website</h2>
+            <img className='w-30 mx-auto mt-1 rounded-lg border-gray-500 border-4 my-2' src={website} alt="/" />
             <p className='text-1xl font-bold text-center pt-1 '>
               <span className="bg-[#000000] text-blue-600 rounded-md px-2 ">React</span>
               <span className="bg-[#ababab] text-blue-600 rounded-md px-2 mx-1">Tailwind</span>
