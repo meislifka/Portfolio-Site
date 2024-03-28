@@ -4,7 +4,8 @@ import escapeRoom from '../assets/escapeRoom.jpg'
 import henryShelly from '../assets/henryShelly.jpg'
 import mushroomMan from '../assets/mushroomMan.jpg'
 import hollowKnight from '../assets/hollowKnight.jpg'
-//import crochet from '../assets/'
+import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
+
 export const Extras = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [henryShelly, mushroomMan, hollowKnight]; // Add your image URLs here
@@ -20,7 +21,7 @@ export const Extras = () => {
 
   return (
     <div id="extras" className='min-h-screen  py-[rem] px-4 '>
-      <h1 className='text-6xl text-center font-bold text-[#9ae3f5] drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,1.8)]  mb-10'>EXTRAS</h1>
+      <h1 className='text-6xl text-center font-bold text-[#85C7F2] drop-shadow-[0_2.2px_2.2px_rgba(0,0,0,1.8)]  mb-10'>EXTRAS</h1>
 
 
       <div className='flex max-w-[1240px] mx-auto'>
@@ -48,14 +49,14 @@ export const Extras = () => {
           </div>
 
           {/* Crochet card*/}
-          <div className='w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#dec83d] hover:scale-105 duration-300 border-black border-4'>
+          <div className='w-full shadow-xl flex flex-col p-4 px-1 my-4 rounded-lg bg-[#dec83d] hover:scale-105 duration-300 border-black border-4'>
             <h2 className='text-2xl font-bold text-center'>Crochet</h2>
             <div className="relative">
               <img className='w-30 mx-auto mt-1 bg-white rounded-lg border-black border-4 h-69 object-cover my-2' src={images[currentImageIndex]} alt="/" />
-              <button className="absolute top-1/2 transform -translate-y-1/2 left-1 rounded-full border-black border-2 bg-gray-200 text-black font-bold text-l py-1 px-2" onClick={goToPreviousImage}>{'<'}</button>
-              <button className="absolute top-1/2 transform -translate-y-1/2 right-1 rounded-full border-black border-2 bg-gray-200 text-black font-bold text-l py-1 px-2" onClick={goToNextImage}>{'>'}</button>
+              <button className="absolute top-1/2 transform -translate-y-1/2 left-1 rounded-full border-black border-2 bg-gray-200 text-black font-bold text-l py-1 px-2" onClick={goToPreviousImage}>{<GrLinkPrevious />}</button>
+              <button className="absolute top-1/2 transform -translate-y-1/2 right-1 rounded-full border-black border-2 bg-gray-200 text-black font-bold text-l py-1 px-2" onClick={goToNextImage}>{<GrLinkNext />}</button>
             </div>
-            <p className='text-2xl font-bold text-center'>I enjoy crocheting projects</p>
+            <p className='text-2xl font-bold text-center'>I've recently gotten into crochet,<br></br> Click the next button to see some of my projects</p>
           </div>
 
         </div>
