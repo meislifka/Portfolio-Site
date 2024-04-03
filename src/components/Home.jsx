@@ -19,7 +19,7 @@ export const Home = () => {
 
         <img className='mx-auto mt-1 bg-white rounded-lg border-black border-4 h-69 w-30 object-cover my-2' src={person} alt="/" />
 
-        <h1 className='text-red text-2xl font-bold text-center'>Software Engineer</h1>
+        <h1 className='text-red text-3xl font-bold text-center'>Software Engineer</h1>
 
         <div className=" flex space-x-1 mt-2 items-center justify-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
           <a href="https://github.com/meislifka" target="_blank" rel="noopener noreferrer">
@@ -30,8 +30,8 @@ export const Home = () => {
             <FaLinkedin size={40} />
           </a>
 
-          <button onClick={handleResumeButtonClick} className="flex bg-[#85C7F2] text-black p-2 rounded-md">
-            Resume <ImNewTab />
+          <button onClick={handleResumeButtonClick} className="flex bg-[#85C7F2] text-black p-2 rounded-md font-bold">
+            Resume &nbsp; <ImNewTab />
           </button>
         </div>
 
