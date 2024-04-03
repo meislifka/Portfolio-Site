@@ -22,15 +22,19 @@ export const Home = () => {
         <h1 className='text-red text-3xl font-bold text-center'>Software Engineer</h1>
 
         <div className=" flex space-x-1 mt-2 items-center justify-center drop-shadow-[0_1.2px_1.2px_rgba(0,0,0,0.8)]">
-          <a href="https://github.com/meislifka" target="_blank" rel="noopener noreferrer">
+
+          <a href="https://github.com/meislifka" target="_blank" rel="noopener noreferrer" className="hover:text-[#383838]">
             <FaGithubSquare size={40} />
           </a>
 
-          <a href="https://www.linkedin.com/in/mei-slifka/" target="_blank" rel="noopener noreferrer">
+
+          <a href="https://www.linkedin.com/in/mei-slifka/" target="_blank" rel="noopener noreferrer" className="hover:text-[#383838]">
             <FaLinkedin size={40} />
           </a>
 
-          <button onClick={handleResumeButtonClick} className="flex bg-[#85C7F2] text-black p-2 rounded-md font-bold">
+
+
+          <button onClick={handleResumeButtonClick} className="flex bg-[#85C7F2] hover:bg-[#b2e0ff] text-black p-2 rounded-md font-bold">
             Resume &nbsp; <ImNewTab />
           </button>
         </div>

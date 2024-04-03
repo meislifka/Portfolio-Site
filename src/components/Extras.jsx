@@ -33,7 +33,7 @@ export const Extras = () => {
           <div className=' w-full shadow-xl flex flex-col p-4 my-4 rounded-lg bg-[#3a8725] hover:scale-105 duration-300 border-black border-4'>
             <h2 className='text-2xl font-bold text-center '>National Parks</h2>
             <img className='w-30 mx-auto mt-1 bg-white rounded-lg  border-black border-4 h-69 object-cover my-2' src={parkMap} alt="/" />
-            <p className='text-2xl font-bold text-center '>One of bucket list items is to visit all 63 National Parks Currently: 7/63 </p>
+            <p className='text-2xl font-bold text-center '>One of my bucket list items is to visit all 63 National Parks Currently: 7/63 </p>
           </div>
 
           {/* Escape room card*/}
