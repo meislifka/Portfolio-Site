@@ -28,7 +28,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/meislifka/Portfolio-Site">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="public/favicon.ico" alt="Logo" width="80" height="80">
   </a>
 
 <h3 align="center">Portfolio Site</h3>
@@ -121,7 +121,7 @@ Project Link: [https://github.com/meislifka/Portfolio-Site](https://github.com/m
 [license-url]: https://github.com/meislifka/Portfolio-Site/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0072B1
 [linkedin-url]: https://linkedin.com/in/meislifka
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/assets/website.jpg
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 
