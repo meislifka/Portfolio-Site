@@ -110,6 +110,7 @@ Project Link: [https://github.com/meislifka/Portfolio-Site](https://github.com/m
 
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 * [React Icons](https://react-icons.github.io/react-icons/)
+* [Simple Icons](https://simpleicons.org/?q=mit+li)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -117,7 +118,7 @@ Project Link: [https://github.com/meislifka/Portfolio-Site](https://github.com/m
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[license-shield]: https://img.shields.io/github/license/meislifka/Portfolio-Site.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/badge/license-MIT-a5c914.svg?style=for-the-badge
 [license-url]: https://github.com/meislifka/Portfolio-Site/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=0072B1
 [linkedin-url]: https://linkedin.com/in/meislifka
