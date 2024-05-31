@@ -69,7 +69,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://meislifka.dev)
 This is a personal website built with React and Tailwind and hosted on Netlify. It showcases my projects and additional information for others to learn more about me.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
