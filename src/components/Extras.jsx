@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import parkMap from '../assets/NationalParks.png'
 import escapeRoom from '../assets/escapeRoom.jpg'
-import henryShelly from '../assets/henryShelly.jpg'
+import gradBear from '../assets/gradBear.jpg'
 import mushroomMan from '../assets/mushroomMan.jpg'
 import hollowKnight from '../assets/hollowKnight.jpg'
 import elephant from '../assets/elephant.jpg'
@@ -9,7 +9,7 @@ import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
 export const Extras = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [henryShelly, mushroomMan, hollowKnight, elephant]; // Add your image URLs here
+  const images = [gradBear, mushroomMan, hollowKnight, elephant]; // Add your image URLs here
 
   const goToPreviousImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
