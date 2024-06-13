@@ -9,7 +9,7 @@ import { GrLinkNext, GrLinkPrevious } from "react-icons/gr";
 
 export const Extras = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const images = [gradBear, mushroomMan, hollowKnight, elephant]; // Add your image URLs here
+  const images = [elephant, gradBear, mushroomMan, hollowKnight]; // Add your image URLs here
 
   const goToPreviousImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex === 0 ? images.length - 1 : prevIndex - 1));
