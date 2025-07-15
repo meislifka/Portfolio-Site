@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/meislifka/Portfolio-Site/static/css/main.168ccdc2.css",
+    "main.js": "/meislifka/Portfolio-Site/static/js/main.a016f14d.js",
+    "static/media/seeLionAbout.jpg": "/meislifka/Portfolio-Site/static/media/seeLionAbout.492d050779bdf54e437c.jpg",
+    "static/media/seeLion.jpg": "/meislifka/Portfolio-Site/static/media/seeLion.7cc2bd1509e330ab460a.jpg",
+    "static/media/website.jpg": "/meislifka/Portfolio-Site/static/media/website.4557db837588b5615da8.jpg",
+    "static/media/NationalParks.png": "/meislifka/Portfolio-Site/static/media/NationalParks.f71673f35bb91c2a4d47.png",
+    "static/media/seeLionQueryDB.jpg": "/meislifka/Portfolio-Site/static/media/seeLionQueryDB.24e9667781a498c20ade.jpg",
+    "static/media/higherlowerstocks.jpg": "/meislifka/Portfolio-Site/static/media/higherlowerstocks.19e21baea69a05ca170d.jpg",
+    "static/media/portrait.jpg": "/meislifka/Portfolio-Site/static/media/portrait.29888a249b8d3352ed9c.jpg",
+    "static/media/MSlifka_Resume.pdf": "/meislifka/Portfolio-Site/static/media/MSlifka_Resume.b5560597741d81b2b066.pdf",
+    "static/media/escapeRoom.jpg": "/meislifka/Portfolio-Site/static/media/escapeRoom.a7f2b8ab231e80a6fe93.jpg",
+    "static/media/seeLionRegister.jpg": "/meislifka/Portfolio-Site/static/media/seeLionRegister.7da082c191c5d4b574e0.jpg",
+    "static/media/mushroomMan.jpg": "/meislifka/Portfolio-Site/static/media/mushroomMan.ff6d96a46860713f9726.jpg",
+    "static/media/seeLionSearch.jpg": "/meislifka/Portfolio-Site/static/media/seeLionSearch.1f0dee76161633ae686a.jpg",
+    "static/media/seeLionLogin.jpg": "/meislifka/Portfolio-Site/static/media/seeLionLogin.543c2b77aed1aebb518e.jpg",
+    "static/media/astroids.jpg": "/meislifka/Portfolio-Site/static/media/astroids.15992f460281317ec102.jpg",
+    "static/media/elephant.jpg": "/meislifka/Portfolio-Site/static/media/elephant.43f518c1c9b6f9d6aa0f.jpg",
+    "static/media/kermCooks.jpg": "/meislifka/Portfolio-Site/static/media/kermCooks.f1b463041521316548a5.jpg",
+    "static/media/gradBear.jpg": "/meislifka/Portfolio-Site/static/media/gradBear.9f06e8fa25f956c1b6ba.jpg",
+    "static/media/midnightJacket.jpg": "/meislifka/Portfolio-Site/static/media/midnightJacket.f2d961c7124dc8a482d4.jpg",
+    "static/media/hollowKnight.jpg": "/meislifka/Portfolio-Site/static/media/hollowKnight.025fa6b191e6e8d4674e.jpg",
+    "index.html": "/meislifka/Portfolio-Site/index.html",
+    "main.168ccdc2.css.map": "/meislifka/Portfolio-Site/static/css/main.168ccdc2.css.map",
+    "main.a016f14d.js.map": "/meislifka/Portfolio-Site/static/js/main.a016f14d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.168ccdc2.css",
+    "static/js/main.a016f14d.js"
+  ]
+}
