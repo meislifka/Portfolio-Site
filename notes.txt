@@ -1,0 +1,2 @@
+to deploy, npm run deploy there's a script command
+that will push the build into the build folder and automatically pushes the build to the gh-pages branch which github pages is set to serve to the website
